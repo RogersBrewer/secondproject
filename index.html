@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+ <link rel="stylesheet" type="text/css" href="main.css">
+	<title>Care Board</title>
+
+</head>
+
+
+<body> 
+    <div id="container">
+    
+	<ol>
+<form id="myform"></form>
+
+
+<li>  Today Date: <input type="date" name="fName" id="t-date" placeholder="Today Date Here"/></li>
+
+<li>  Discharge Date:  <input type="date" name="fName" id="discharge-date" placeholder="Discharge Date Here"/></li>
+
+<li>  Room Number:  <input type="text" name="fName" id="room-number" placeholder="Room Number Here"/></li>
+
+<li>  Phone Number For Room:  <input type="text" name="phone-number-room" id="fName" placeholder="Phone Number For Room Here"/></li>
+
+<li>  My Name: <input type="text" name="name" id="my-name" value="" onchange="myFunction(this.value)"  placeholder="Type Name Here"/> <li/>
+
+<li>  Here With Me :<input type="text" name="fName" id="here-with-me" placeholder="Type Guest Name Here"/> <li/>
+
+<li>  Preferred Language: <input type="text" name="fName" id="preferred-language" placeholder="Language"/><li/>
+
+<li>  My Baby's Name Is: <input type="text" onchange="babyName(event)" name="fName" id="baby-name" placeholder="Baby's Name Here"/><li/>
+
+<li>  Date Of Birth: <input type="date" name="fName" id="date-of-birth" placeholder="Baby's Birth Date Here"/><li/>
+
+<li>  Time Of Birth:  <input type="time" name="fName" id="time-of-birth" placeholder="Time of Baby's Birth Here"/><li/>
+
+<li>  Birth Weight:  <input type="text" name="fName" id="birth-weight" placeholder="Baby's Birth Weight Here"/><li/>
+
+	</ol>
+
+  <div id='welname'></div>
+  <p id='wel'></p>
+
+    <ul id="myList">
+        
+        
+    </ul>
+    
+        
+	<!-- right side content -->
+ 
+
+<table>
+
+	<!-- header for the table content -->
+	<tr>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Today's<br> Weight:</th>
+        <th>My<br> Nurse:</th>
+        <th>My <br>Doctor:</th>
+        <th>For Pain<br> I Am Taking:</th>
+        <th>Additional<br> Medications:</th>
+        <th>My Last<br> Pain Med At:</th>
+        <th>My Next<br> Pain Med At:</th>		
+		<th>Breastfed</th>
+		<th>Pumped</th>
+		<th>Wet Diaper</th>
+		<th>Shool</th>
+		<th>Other</th>
+
+	</tr>
+        
+     <tbody id="list">
+
+            <tr>
+               <td><input type="date" size="3" title="Date" id="date"> </td>               
+               <td><input type="time" size="3" title="Time" id="time"> </td>                 
+               <td><input type="text" size="5" title="Today's Weight:" id="today-weight"></td>
+               <td><input type="text" size="5" title="My Nurse" id="my-nurse"></td>
+               <td><input type="text" size="5" title="My Doctor" id="my-doctor"></td>
+               <td><input type="text" size="5" title="For Pain I Am Taking:" id="pain-am-taking"></td>
+               <td><input type="text" size="5" title="Additional Medications:" id="additional-medications"></td>
+               <td><input type="time" size="3" title=" Last Pain Med At" id="last-pain-med" ></td>
+               <td><input type="time" size="3" title="My Next Pain Med At" id="next-pain-med"></td>  
+               
+                                 
+              <td>
+                <select  title="YES OR NO" id="breastfed">
+                    <option> Yes</option>
+                    <option>  No</option> 
+                </select>                    
+              </td> 
+
+              <td>
+                 <select title="YES OR NO" id="pumped">
+                     <option> Yes</option>
+                     <option>  No</option> 
+                 </select>     
+              </td>
+
+             <td>
+                <select title="YES OR NO" id="wet-diaper">
+                     <option> Yes</option>
+                     <option>  No</option> 
+                </select>    
+              </td>
+
+              <td>
+                <select title="YES OR NO" id="shool">
+                     <option> Yes</option>
+                     <option>  No</option> 
+                </select>    
+              </td>
+
+              <td>
+                <select title="YES OR NO" id="other">
+                     <option> Yes</option>
+                     <option>  No</option> 
+                </select>    
+              </td>
+
+              <td>
+                <button type="button" id="add-new-line" onclick="addItem(event)">Add New<br>Line</button>
+              </td>
+            </tr>
+    </tbody>
+
+</div>
+	
+      
+    
+
+
+<script type="text/javascript"src="script.js"></script>
+
+ </div>
+</body>
+
+
+
+</html>

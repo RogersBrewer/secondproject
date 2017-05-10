@@ -1,0 +1,131 @@
+body{
+	background-color: burlywood;
+padding: 0px 0px 0px 25px
+}
+
+ div #container {	
+	width: auto;
+	height: auto;	
+}
+
+#careInfo{
+	position: absolute;
+	top: 40px;
+	left: -640px;
+	background-color: green;	
+	border: 3px solid black;
+	border-radius: 15px;
+	color: white;
+	height: 35px;
+	width: 420px;
+	text-align: center;	
+}
+
+#myPlan{
+	background-color: blue;	
+	border: 3px solid black;
+	border-radius: 15px;
+	color: white;
+	height: 20px;
+	width: 200px;
+	text-align: center;	
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+	padding: 3px;
+	font-size: 20px;	
+	color: green;
+}
+
+
+#leftSide{
+	position: absolute;
+	top: 100px;
+	left: -600px;
+	text-align: center;
+}
+
+
+
+#lSide{
+	position: absolute;
+	top: 100px;
+	left: -400px;
+	text-align: center;
+}
+
+
+
+#feed2{
+	position: absolute;
+	top: 20px;
+	left: 28px;
+	background-color: red;	
+	border: 3px solid black;
+	border-radius: 15px;
+	color: white;
+	height: 40px;
+	width: 400px;
+	text-align: center;	
+}
+
+
+td {
+	border: 1px solid black;
+	padding: 3px;
+	margin: 1px;
+	height: auto;
+	width: 200px;
+}
+
+th {
+	border: 1px solid black;
+	background-color: gray;
+	padding: 3px;
+	margin: 1px;
+	height: auto;
+	width: auto;
+	text-align: center;
+}
+
+table {
+	position: relative;
+	top: 150px;
+	left: 10px;
+	width: auto;
+}
+
+h3 {
+	position: absolute;
+	left: 180px;
+	top: 79px;
+}
+
+#myform2{
+	position: absolute;
+	left: 918px;
+	top: 00px
+
+}
+
+#wel{
+	position: relative;
+	left: 20px;
+	font-size: 2em;
+	text-align: center;
+	
+
+}
+
+#my-name{
+	position: relative;
+
+
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+
+
